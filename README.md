@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### How to Solve the CORS Issue in a Create React App Project with a Proxy
+https://jafreitas90.medium.com/how-to-solve-the-cors-issue-in-a-create-react-app-project-with-a-proxy-5403141d7f32
