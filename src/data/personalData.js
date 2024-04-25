@@ -21,12 +21,12 @@ export const aboutInfo = {
 }
 
 export const socialInfo = {
-  twitter: "https://twitter.com/",
-  github: "https://github.com",
-  linkedin: "https://www.linkedin.com/",
-  instagram: "https://www.instagram.com/",
-  facebook: "https://www.facebook.com/",
-  youtube: "https://www.youtube.com/",
+  linkedin: "https://www.linkedin.com/in/jason-yeung-027614218/",
+  github: "https://github.com/ymkqut",
+  facebook: "https://www.facebook.com",
+  instagram: "https://www.instagram.com",
+  twitter: "https://www.twitter.com",
+  youtube: "https://www.youtube.com",
 }
 
 export const workInfo = [

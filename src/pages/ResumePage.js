@@ -1,11 +1,11 @@
 import React from 'react';
-import { Typography, Container, Grid, Paper, List, ListItem, ListItemText } from '@mui/material';
+import { Typography, Container, Grid, Paper } from '@mui/material';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { notableOutputInfo, workInfo } from '../data/personalData';
-import Work from '../components/Work';
-import NotableOutput from '../components/NotableOutput';
-import QualificationsList from '../components/QualificationsList';
+import Work from '../components/resume/Work';
+import NotableOutput from '../components/resume/NotableOutput';
+import QualificationsList from '../components/resume/QualificationsList';
 import {
   Book as SummaryIcon,
   Work as WorkIcon,
@@ -13,7 +13,7 @@ import {
   LibraryBooks as OutputIcon,
   School as QualificationIcon
 } from '@mui/icons-material';
-import SkillsList from '../components/SkillsList';
+import SkillsList from '../components/resume/SkillsList';
 
 const summary = {
   content1: "Hello! I'm Jason 🖐🏻, a backend developer with three years of hands-on experience in web development 💻. I specialize in building responsive, user-friendly web applications using modern technologies like JavaScript, React, and Java 🌟. My passion for creating efficient and scalable software solutions drives my work 🚀.",
@@ -21,6 +21,7 @@ const summary = {
   content3: "My key skills include back-end development with Node.js and Java 🔧, and database management with MongoDB and MySQL 🗄️. I'm also experienced in implementing RESTful APIs and integrating third-party services 🌐. Additionally, I have some front-end and mobile techniques with React and React Native 📱.",
   content4: "Looking ahead, I'm eager to continue growing my expertise in emerging technologies 🌱 and contribute to innovative projects that make a positive impact💡. My goal is to leverage my skills and experience to help organizations achieve their digital transformation objectives 🚀."
 }
+
 function ResumePage() {
   return (
     <>

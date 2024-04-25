@@ -1,6 +1,6 @@
 import React from 'react';
 import { List, ListItem, ListItemText } from '@mui/material';
-import { qualificationsInfo } from '../data/personalData';
+import { qualificationsInfo } from '../../data/personalData';
 
 function QualificationsList() {
 

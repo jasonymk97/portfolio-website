@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Box, Button, Divider, Grid, Icon } from '@mui/material';
+import { Typography, Box, Button, Grid, Icon } from '@mui/material';
 import { LocationOn as LocationIcon, Business as BusinessIcon } from '@mui/icons-material';
 
 function Work({ position, company, location, type, duration }) {

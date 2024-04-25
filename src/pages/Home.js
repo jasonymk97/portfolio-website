@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { personalInfo } from "../data/personalData";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Hero from "../components/Hero";
+import Hero from "../components/home/Hero";
 
 function Home() {
   const { name, tagline, img } = personalInfo;

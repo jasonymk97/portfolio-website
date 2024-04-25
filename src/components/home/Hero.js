@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../assets/images/zen-balancing-pebbles-misty-lake.jpg';
+import heroImage from '../../assets/images/zen-balancing-pebbles-misty-lake.jpg';
 import { useNavigate } from 'react-router-dom';
 
 function Hero() {
