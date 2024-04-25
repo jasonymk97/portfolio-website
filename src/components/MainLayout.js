@@ -4,11 +4,7 @@ import Footer from './Footer';
 
 function MainLayout({ children }) {
   return (
-    <div>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </div>
+      <><Header /><main style={{ flex: '1' }}>{children}</main><Footer /></>
   );
 }
 
