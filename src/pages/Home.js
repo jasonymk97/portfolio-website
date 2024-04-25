@@ -37,8 +37,8 @@ function Home() {
     <>
       <div className="flex flex-col h-screen">
         <Header />
+        <Hero />
         <main className="flex-grow flex flex-col justify-center">
-          <Hero />
           <div className="flex items-center justify-center">
             {/* Left side with text */}
             <div>
