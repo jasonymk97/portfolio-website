@@ -13,7 +13,7 @@ const Navbar = () => {
     }, []);
 
   return (
-     <div ref={appBarRef} className="fixed top-0 w-full bg-gradient-to-r from-sky-500 to-indigo-500">
+     <div ref={appBarRef} className=" top-0 w-full bg-gradient-to-r from-sky-500 to-indigo-500">
       <Toolbar className="justify-between">
         <Typography variant="h6" component="div"> 
           <Link to="/" className="text-white">Jason Yeung</Link>

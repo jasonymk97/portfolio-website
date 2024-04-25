@@ -1,5 +1,6 @@
 import programmerImage from "../assets/images/programmer_cartoon.jpg";
 import personalImage1 from "../assets/images/personal/jason_yeung_1.jpeg";
+import personalImage2 from "../assets/images/personal/jason_yeung_2.jpeg";
 
 export const personalInfo = {
   name: "Jason Yeung",
@@ -14,6 +15,7 @@ export const personalInfo = {
 
 export const aboutInfo = {
   image1: personalImage1,
+  image2: personalImage2,
   title : "Feel free to call me Jason. I'm from Hong Kong, a vibrant and multicultural city that offers a dynamic lifestyle. ",
   description: "I've been a software developer for nearly three years, and I love embracing challenges and finding solutions as part of my work. My experience spans a range of projects, each unique in its own way, providing me with opportunities to learn and grow."
 }
