@@ -22,15 +22,4 @@ module.exports = function (app) {
             },
         })
     );
-
-    app.use(
-        '/google-api',
-        createProxyMiddleware({
-            target: 'https://www.googleapis.com',
-            changeOrigin: true,
-            pathRewrite: {
-                '^/google-api': '',
-            },
-        })
-    );
 };

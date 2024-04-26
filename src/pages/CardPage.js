@@ -7,30 +7,6 @@ import Footer from '../components/Footer';
 import parse from 'html-react-parser';
 import Loading from '../components/Loading';
 
-const sampleData = {
-    id: 113180,
-    collectible: 1,
-    slug: "113180-aegwynn-the-guardian",
-    classId: 4,
-    multiClassIds: [],
-    cardTypeId: 4,
-    cardSetId: 1635,
-    rarityId: 5,
-    artistName: "Luke Mancini",
-    health: 5,
-    attack: 5,
-    manaCost: 5,
-    name: "Aegwynn, the Guardian",
-    text: "<b>Spell Damage +2</b> <b>Deathrattle:</b> The next minion you draw inherits these powers.",
-    image: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6ac5580b63611926a1f7c1de79036a45e977bb9f5ee87a99373d75ddc448251.png",
-    flavorText: "With Medivh as her son, nothing YOU do could ever disappoint her.",
-    cropImage: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e63f767cc590dc8bbf7a9826aba0545ab10f9f0767b6614318358d444430ce99.png",
-    keywordIds: [2, 12],
-    copyOfCardId: 62347,
-    isZilliaxFunctionalModule: false,
-    isZilliaxCosmeticModule: false,
-};
-
 const CardPage = () => {
     const { id } = useParams(); // Get the card ID from the URL
     const [cardData, setCardData] = useState(null);

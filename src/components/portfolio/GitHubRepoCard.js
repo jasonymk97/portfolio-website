@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { TextField, Paper } from '@mui/material';
 import Project from './Project';
 import 'tailwindcss/tailwind.css';
-import { githubData } from '../../data/debugdata';
 import githubService from '../../services/githubService';
 import { personalInfo } from '../../data/personalData';
 
@@ -29,6 +28,10 @@ const GitHubRepoCards = () => {
 
     // Filter repositories based on search query
     const filteredRepos = repos.filter(repo => repo.name.toLowerCase().includes(search.toLowerCase()));
+
+    if (Array.isArray(repos)) {
+        const filteredRepos = repos.filter(repo => repo.name.toLowerCase().includes(search.toLowerCase()));
+    }
 
     return (
         <div>

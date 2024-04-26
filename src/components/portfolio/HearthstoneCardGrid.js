@@ -3,7 +3,7 @@ import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
 import parse from 'html-react-parser';
-import battlenetService, { sampleHearthstoneCards } from '../../services/battlenetService';
+import battlenetService from '../../services/battlenetService';
 import { TextField, Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
@@ -81,7 +81,15 @@ const HearthstoneCardGrid = () => {
                 setIsError(true);
                 return;
             }
-            setRowData(resp.data);
+            
+            // sample data (the cards data are in the card field)
+            //  {
+            //     "cards": []
+            //     "cardCount": 396,
+            //     "pageCount": 80,
+            //     "page": 1
+            // }
+            setRowData(resp.data.cards);
             setIsError(false);
         };
         fetchData();

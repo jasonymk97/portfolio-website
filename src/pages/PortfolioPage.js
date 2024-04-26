@@ -1,5 +1,4 @@
 import React from 'react';
-import { Paper } from '@mui/material';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import HearthstoneCardGrid from '../components/portfolio/HearthstoneCardGrid';
