@@ -1,74 +1,102 @@
-# Getting Started with Create React App
+# 🌟 Portfolio Website 🌟
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🎯 Purpose
 
-## Available Scripts
+This is a portfolio website built using Create React App. It showcases my projects, skills, and experience by using React. It is a frontend project only, so no server-side code is provided.
 
-In the project directory, you can run:
+## 🤝 Contribution
 
-### `npm start`
+If you would like to contribute to the development of this application, please follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. 🔧 Fork the repository.
+2. 🛠️ Create a new branch for your feature or bug fix.
+3. 💻 Make your changes and commit them.
+4. 🔄 Push your branch to your forked repository.
+5. 📝 Open a pull request to merge your changes into the main repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🏠 **Home Page**: Welcome page
+- 👤 **About Page**: Introduce myself
+- 📄 **Resume Page**: Show my resume
+- 💼 **Portfolio Page**: Demonstrate the use of public APIs
+  - 📑 [GitHub API](https://docs.github.com/en/rest?apiVersion=2022-11-28)
+  - ⚔️ [Battlenet API](https://develop.battle.net/documentation/guides)
+  - 🗺️ [Google Map API](https://developers.google.com/maps/documentation/javascript)
+- 🃏 **Card Page**: Display a Hearthstone card
+- 🚫 **NotFoundPage**: Handle wrong navigation link
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Dependencies
 
-### `npm run build`
+To install the dependencies for this project, please follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. 💻 Make sure you have Node.js installed on your machine.
+2. 🔍 Open a terminal and navigate to the project directory.
+3. 📥 Run the command `npm install` to install the required dependencies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📚 Useful Libraries
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🔍 **Third Party Icons**
+  - `@fortawesome/free-brands-svg-icons`
+  - `@fortawesome/free-solid-svg-icons`
+  - `@fortawesome/react-fontawesome`
+- 🗂️ **Table**
+  - `ag-grid-community`
+  - `ag-grid-react`
+- 🎨 **UI Components**
+  - `@mui/icons-material`
+  - `@mui/material`
+- 🗺️ **Google Map**
+  - `@react-google-maps/api`
+- 🌐 **HTTP Client**
+  - `axios`
+- 🎭 **Animation**
+  - `gsap`
+- 🔀 **Proxy**
+  - `http-proxy-middleware`
+- 🛣️ **React Router**
+  - `react-router-dom`
+- 🔄 **HTML to React**
+  - `html-react-parser`
+- 🎨 **Tailwind CSS** (For development)
+  - `tailwindcss`
 
-### `npm run eject`
+## 🏗️ Architecture
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This application is built using the following technologies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ⚛️ **React.js**: A JavaScript library for building user interfaces.
+- 🚀 **Create React App**: A toolchain for creating React applications with no build configuration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The source code is organized into different files. The main entry point is the `index.js` file.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `src/`
+  - 📁 `assets/images/`: All images, icons, and other documents
+  - 🧩 `components/`: All reusable components
+  - 📝 `data/`: Personal information for the portfolio
+  - 📚 `lib/`: Some third-party libraries such as axiosService
+  - 🧭 `navigation/`: All routings
+  - 📄 `pages/`: All website pages
+  - 🛠️ `services/`: Public API service such as githubservice
+  - `App.js`
+  - `index.js`
+  - `setupProxy.js` (Call third-party APIs)
+- `tailwind.config.js`
+- `.env.local` (Please create this file for local development to save secrets such as tokens, API keys, or other settings)
 
-## Learn More
+## 🐞 Reporting Issues
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you encounter any issues or have any suggestions for improvement, please open an issue on the [GitHub repository](https://github.com/ymkqut/portfolio-website/issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Your feedback is valuable and will help us improve the application.
 
-### Code Splitting
+## 🛠️ Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-### How to Solve the CORS Issue in a Create React App Project with a Proxy
-https://jafreitas90.medium.com/how-to-solve-the-cors-issue-in-a-create-react-app-project-with-a-proxy-5403141d7f32
+- Visual Studio Code
+- Postman: Test APIs
+- Git
+- GitHub
+- SourceTree: Provides a GUI for version control
+- Node.js (v20.11.1)
+- Node Version Manager (nvm)
+- Node Package Manager (npm)
