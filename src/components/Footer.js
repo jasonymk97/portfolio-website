@@ -41,7 +41,7 @@ const Footer = () => {
 
                 {/* Contact and social media links */}
                 <div className="flex space-x-4">
-                    <IconButton href={personalInfo.email} className="text-white" title="Email">
+                    <IconButton href={`mailto:${personalInfo.email}`} className="text-white" title="Email">
                         <EmailIcon />
                     </IconButton>
                     <IconButton href={socialInfo.linkedin} target="_blank" className="text-white" title="LinkedIn">
