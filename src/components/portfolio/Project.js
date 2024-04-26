@@ -10,7 +10,7 @@ const Project = (props) => {
     return (
         <React.Fragment>
             <div className="group bg-opacity-80 rounded-2xl h-full transition-opacity duration-300 hover:bg-gray-100 hover:opacity-100">
-                <Link to={link} className="no-underline">
+                <Link to={link} className="no-underline" target="_blank">
                     <div className="p-6">
                         <div className="w-8 flex justify-center items-center">
                             <FontAwesomeIcon icon={faGithub} className="text-2xl" />
