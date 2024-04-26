@@ -5,13 +5,11 @@ import 'ag-grid-community/styles/ag-theme-alpine.css';
 import parse from 'html-react-parser';
 import battlenetService from '../../services/battlenetService';
 import { TextField, Button } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
 
 const HearthstoneCardGrid = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [rowData, setRowData] = useState([]);
     const gridApiRef = useRef();
-    const navigate = useNavigate();
     const [isError, setIsError] = useState(false);
 
 
@@ -96,7 +94,8 @@ const HearthstoneCardGrid = () => {
     }, []);
 
     const handleViewButtonClick = (id) => {
-        navigate(`/card/${id}`);
+        const url = `/card/${id}`;
+        window.open(url, '_blank');
     };
 
     return (
