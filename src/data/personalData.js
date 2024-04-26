@@ -3,8 +3,10 @@ import personalImage1 from "../assets/images/personal/jason_yeung_1.jpeg";
 import personalImage2 from "../assets/images/personal/jason_yeung_2.jpeg";
 
 export const personalInfo = {
+  email: "mingkit.yeung@connect.qut.edu.au",
+  githubName: "ymkqut",
   name: "Jason Yeung",
-  tagline: "Backend Developer",
+  tagline: "Backend Developer 💻",
   img: programmerImage,
   summary: `
   Hello! I'm Jason, a backend developer with three years of hands-on experience in web development. I specialize in building responsive, user-friendly web applications using modern technologies like JavaScript, React and Java. My passion for creating efficient and scalable software solutions drives my work.
@@ -17,7 +19,7 @@ export const aboutInfo = {
   image1: personalImage1,
   image2: personalImage2,
   title : "Feel free to call me Jason. I'm from Hong Kong, a vibrant and multicultural city that offers a dynamic lifestyle. ",
-  description: "I've been a software developer for nearly three years, and I love embracing challenges and finding solutions as part of my work. My experience spans a range of projects, each unique in its own way, providing me with opportunities to learn and grow."
+  description: "I've been a software developer for nearly three years 💻👨‍💻, and I love embracing challenges 💪 and finding solutions 🔍 as part of my work. My experience spans a range of projects 🛠️, each unique in its own way, providing me with opportunities to learn and grow. 🌱📈"
 }
 
 export const socialInfo = {

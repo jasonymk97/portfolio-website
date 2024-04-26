@@ -21,8 +21,8 @@ function Hero() {
       {/* Semi-transparent overlay for better text visibility */}
       
       <div className="relative flex flex-col items-center justify-center h-full text-center">
-        <h1 className="text-white text-5xl font-bold">Welcome to My Portfolio</h1>
-        <p className="text-white text-xl mt-4">I'm a web developer specializing in creating amazing experiences.</p>
+        <h1 className="text-white text-5xl font-bold">🎉 Welcome to My Website</h1>
+        <p className="text-white text-xl mt-4">"I'm a web developer 🌐 specializing in creating amazing experiences ✨</p>
         <button className="mt-8 bg-blue-400 text-white py-3 px-6 rounded-md hover:bg-blue-600" onClick={handleButtonClick}>About Me</button>
       </div>
     </div>

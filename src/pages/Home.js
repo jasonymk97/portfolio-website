@@ -52,7 +52,7 @@ function Home() {
                 {tagline}
               </h2>
               <h3 ref={h4Ref} className="text-xl p-4 text-purple-400">
-                "Write More, Learn More~"
+                "Write ✍️ More, Learn 📚 More~ "
               </h3>
             </div>
 
