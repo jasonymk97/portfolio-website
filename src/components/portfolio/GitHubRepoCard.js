@@ -30,7 +30,6 @@ const GitHubRepoCards = () => {
     const filteredRepos = repos.filter(repo => repo.name.toLowerCase().includes(search.toLowerCase()));
 
     if (Array.isArray(repos)) {
-        const filteredRepos = repos.filter(repo => repo.name.toLowerCase().includes(search.toLowerCase()));
     }
 
     return (

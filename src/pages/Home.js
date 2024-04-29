@@ -30,6 +30,7 @@ function Home() {
     } catch (error) {
       console.error("GSAP Animation Error:", error);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
 
